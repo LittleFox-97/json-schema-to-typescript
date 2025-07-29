@@ -14,3 +14,7 @@ node_modules
 dist/
 dist_tests/
 yarn-error.log
+.vscode/settings.json
+.vscode/tasks.json
+pnpm-lock.yaml
+package-lock.json
