@@ -19,7 +19,6 @@ export default antfu({
     'test/**/*.ts',
   ],
   rules: {
-    // Переносим правила с учетом новых префиксов flat config
     'ts/adjacent-overload-signatures': 'error',
     'camelcase': 'off',
     'ts/no-empty-object-type': 'error',
@@ -46,5 +45,11 @@ export default antfu({
     'prefer-const': 'error',
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
+    'ts/strict-boolean-expressions': 'off',
+    'node/prefer-global/process': ['error', 'always'],
+    'node/prefer-global/buffer': ['error', 'always'],
+    'no-console': 'warn',
+    'ts/switch-exhaustiveness-check': 'off',
+    'complexity': ['warn', 8],
   },
 })
